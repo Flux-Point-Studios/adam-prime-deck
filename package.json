@@ -1,0 +1,10 @@
+{
+  "name": "adam-prime-deck",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build": "node build.mjs",
+    "start": "node serve.mjs"
+  }
+}

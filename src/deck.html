@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="ADAM: your AI team for Cardano DeFi. An interactive pitch for Cardano PRIME.">
+  <meta property="og:title" content="ADAM — Your DeFi team. On Cardano.">
+  <meta property="og:description" content="Approachable AI agents. Owner-controlled autonomy. Strategies across Cardano DeFi.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flux-point-studios.github.io/adam-prime-deck/">
+  <link rel="canonical" href="https://flux-point-studios.github.io/adam-prime-deck/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>ADAM — Your DeFi team</title>
+</head>
+<body class="iso" data-theme="light">
+<a class="skip" href="#slides">Skip to presentation</a>
+<header class="topbar">
+  <a class="brand" href="#1" aria-label="ADAM first slide"><span class="brand-symbol">a<span>·</span></span> ADAM</a>
+  <span class="top-label">FLUX POINT STUDIOS <i>/</i> CARDANO PRIME</span>
+  <a class="header-link" href="https://adam-web-preprod.up.railway.app/" target="_blank" rel="noopener">Explore ADAM ↗</a>
+</header>
+<main id="slides" tabindex="-1">
+  <section class="slide cover" id="slide-1" data-chapter="Meet ADAM" aria-labelledby="title-1">
+    <div class="cover-copy">
+      <p class="eyebrow">MEET ADAM</p>
+      <h1 id="title-1">Your DeFi team.<br><em>On Cardano.</em></h1>
+      <p class="lead">Put your goals to work.<br>Your AI team handles the complexity.</p>
+      <p class="support">Built for people who want to use DeFi<br> without making it a full-time job.</p>
+      <button class="primary" id="meet-team">Meet your team <span>↗</span></button>
+    </div>
+    <div class="cover-visual"><div class="office-container">{{OFFICE_HERO}}</div><span class="figure-hint">SELECT A DESK</span></div>
+  </section>
+  <section class="slide team-slide" id="slide-2" data-chapter="Your team" aria-labelledby="title-2" hidden>
+    <div class="team-heading"><p class="eyebrow">DEFI YOU CAN TALK TO</p><h2 id="title-2">A team that meets you<br><em>where you are.</em></h2><p class="support">Click a person. Ask a question. Give a direction.<br> Start simple and go deeper at your own pace.</p></div>
+    <div class="team-layout">
+      <div class="team-figure"><div class="office-container">{{OFFICE_TEAM}}</div></div>
+      <div class="role-panel"><div class="role-tabs" role="tablist" aria-label="ADAM team roles"><button role="tab" aria-selected="true" data-role="Research" aria-controls="role-content">Research</button><button role="tab" aria-selected="false" data-role="Risk" aria-controls="role-content">Risk</button><button role="tab" aria-selected="false" data-role="Execution" aria-controls="role-content">Execution</button><button role="tab" aria-selected="false" data-role="Treasury" aria-controls="role-content">Treasury</button></div><div id="role-content" role="tabpanel" aria-live="polite"></div></div>
+    </div>
+  </section>
+  <section class="slide guard-slide" id="slide-3" data-chapter="Your control" aria-labelledby="title-3" hidden>
+    <div class="guard-copy"><p class="eyebrow">AUTONOMY, ON YOUR TERMS</p><h2 id="title-3">You set<br><em>the limits.</em></h2><p class="lead">Delegate the work.<br>Keep control of your funds.</p><p class="support">ADAM’s spending guard enforces your asset caps on-chain. You can revoke access or recover funds with your owner key.</p><a class="text-link" href="https://github.com/Flux-Point-Studios/adam-spending-guard" target="_blank" rel="noopener">Open-source spending guard ↗</a></div>
+    <div class="guard-lab"><p class="small-label">TRY AN AGENT SPEND</p><div class="amount-display"><output id="amount-value">30</output><span>ADA</span></div><label class="sr-only" for="amount">Illustrative agent outflow in ADA</label><input id="amount" type="range" min="0" max="100" step="5" value="30"><div class="range-caption"><span>0</span><span>Your cap: <strong>50 ADA</strong></span><span>100</span></div><div class="guard-status" id="guard-status" aria-live="polite"><span id="guard-icon">✓</span><strong id="guard-verdict">Within your limit</strong></div><label class="revoke"><span>Revoke agent access</span><input type="checkbox" id="revoke"></label><p class="example-label">Interactive spending example</p></div>
+  </section>
+  <section class="slide breadth-slide" id="slide-4" data-chapter="Across DeFi" aria-labelledby="title-4" hidden>
+    <p class="eyebrow">MORE OF CARDANO, WITHIN REACH</p><h2 id="title-4">One goal.<br><em>A strategy across DeFi.</em></h2><p class="lead">Trading, lending, yield and liquidity<br>in one workspace.</p>
+    <div class="breadth-layout"><div class="protocol-tabs" role="tablist" aria-label="DeFi categories"><button role="tab" aria-selected="true" data-category="trade" aria-controls="protocol-content">Trade <span>↗</span></button><button role="tab" aria-selected="false" data-category="lend" aria-controls="protocol-content">Lend <span>↗</span></button><button role="tab" aria-selected="false" data-category="yield" aria-controls="protocol-content">Earn <span>↗</span></button><button role="tab" aria-selected="false" data-category="liquidity" aria-controls="protocol-content">Provide liquidity <span>↗</span></button></div><div id="protocol-content" role="tabpanel" aria-live="polite"></div></div>
+  </section>
+  <section class="slide closing" id="slide-5" data-chapter="Why PRIME" aria-labelledby="title-5" hidden>
+    <p class="eyebrow">ADAM × PRIME</p><h2 id="title-5">Bring more people<br><em>into Cardano DeFi.</em></h2><p class="lead">We’ve built the product.<br>PRIME helps put it in more people’s hands.</p>
+    <div class="prime-opportunities"><article><span>01</span><h3>Protocol partners</h3><p>Put ADAM to work across the ecosystem.</p></article><article><span>02</span><h3>Liquidity pilots</h3><p>Turn strategies into useful on-chain activity.</p></article><article><span>03</span><h3>Distribution</h3><p>Reach users through wallets and DeFi communities.</p></article></div>
+    <div class="closing-bottom"><a class="primary" href="https://adam-web-preprod.up.railway.app/" target="_blank" rel="noopener">Explore ADAM <span>↗</span></a><span>BUILT BY FLUX POINT STUDIOS</span></div>
+  </section>
+</main>
+<footer class="deck-footer"><span id="slide-label">MEET ADAM</span><nav id="chapter-nav" aria-label="Presentation chapters"><a href="#1" aria-label="Meet ADAM"></a><a href="#2" aria-label="Your team"></a><a href="#3" aria-label="Your control"></a><a href="#4" aria-label="Across DeFi"></a><a href="#5" aria-label="Why PRIME"></a></nav><div class="footer-controls"><span class="page-number"><b id="page-current">01</b> / <span id="page-total">05</span></span><button id="previous" aria-label="Previous slide">←</button><button id="next" aria-label="Next slide">→</button></div></footer>
+<div class="sr-only" aria-live="polite" id="slide-announcement"></div>
+<noscript><style>.slide[hidden]{display:block}.slide{min-height:100vh}.deck-footer{display:none}</style><p>Read the deck by scrolling. Interactive examples require JavaScript.</p></noscript>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>
