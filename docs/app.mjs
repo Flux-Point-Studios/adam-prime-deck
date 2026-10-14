@@ -75,7 +75,7 @@ document.querySelector('#amount').addEventListener('input', updateGuard);
 document.querySelector('#revoke').addEventListener('change', updateGuard);
 
 const categories = {
-  trade: { title: 'Put your view into action.', protocols: ['DexHunter', 'SaturnSwap', 'CardexScan', 'Strike'] },
+  trade: { title: 'Put your view into action.', protocols: ['DexHunter', 'SaturnSwap', 'CardexScan', 'Strike', 'SteelSwap'] },
   lend: { title: 'Make capital work harder.', protocols: ['Fluid', 'Surf', 'Danogo', 'Indigo', 'Liqwid'] },
   yield: { title: 'Build an income strategy.', protocols: ['Indigo', 'Danogo', 'SaturnSwap'] },
   liquidity: { title: 'Bring depth to the market.', protocols: ['SaturnSwap', 'Danogo'] },
